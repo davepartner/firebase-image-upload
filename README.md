@@ -36,11 +36,12 @@ firebase-image-upload/
 
 * Be sure your user is logged in. Here is a [firebase tutorial on that](https://firebase.google.com/docs/auth/web/manage-users)
 
-*Insert your logged in User's Id
-Retrieve the userId. You'll be needing it in the firebase url in the upload.js file included in this project.
-Find this line in upload.js 
+* Insert your logged in User's Id
+Retrieve the userId , Find this line in upload.js 
 `var uploadTask = storageRef.child(localStorage.myFirebase_user_id+"/"+timeStamp+"/"+ fileName).put(fileObject);`
+.
 And replace ```localStorage.myFirebase_user_id``` with your logged in `userID` variable
+.
 Eg. 
 `var uploadTask = storageRef.child(localStorage.myFirebase_user_id+"/"+timeStamp+"/"+ fileName).put(fileObject);`
 
@@ -49,7 +50,7 @@ Eg.
 * I have made Youtube Tutorials for Ratchet, don't forget to subscribe: [Youtube.com/c/braintemorg](https://www.youtube.com/playlist?list=PLnBvgoOXZNCMDvqp6mjPM09Kt57VB__mg)
 *If you have any questions or discussions, you can leave them under each youtube video, I'll be there to help.
 
-*You can get tutorials from the official Firebase' website https://firebase.google.com
+* You can get tutorials from the official Firebase' website https://firebase.google.com
 
 ## Contributing
 
