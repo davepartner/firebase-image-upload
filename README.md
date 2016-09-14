@@ -10,7 +10,7 @@ The firebase API can be tricky at times given that for the image upload to work 
 
 Add this inbetween the <head> </head> tags if you have not already done so.
 
-`<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+```<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
 <script>
   // Initialize Firebase
   // TODO: Replace with your project's customized code snippet
@@ -22,7 +22,7 @@ Add this inbetween the <head> </head> tags if you have not already done so.
   };
   firebase.initializeApp(config);
 </script>
-`
+```
 
 ## What's included
 ```
