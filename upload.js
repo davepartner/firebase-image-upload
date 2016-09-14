@@ -11,6 +11,24 @@ This code does not fix that issue, do well to send a pull request.
 
 */
 
+
+/*
+Login to your firebase console, click on STORAGE, then click on RULES
+Replace whatever default code you have their with the one below:
+
+service firebase.storage {
+  match /b/project-162854887831486239.appspot.com/o {
+    match /{userId}/{timestamp}/{fileName} {
+      allow write: if request.auth.uid == userId;
+      allow read;
+    }
+  }
+}
+
+*/
+
+
+
 	function getPictureFromGallery(){
 
 		navigator.camera.getPicture(onSuccess, onFail, { 
