@@ -113,7 +113,7 @@ getFileObject(imageData, function (fileObject) {
 
 var timeStamp = Math.floor(Date.now() / 1000);
 // Upload file and metadata to the object 'images/mountains.jpg'
-var uploadTask = storageRef.child(localStorage.doctordial_authData_uid+"/"+timeStamp+"/"+ fileName).put(fileObject);
+var uploadTask = storageRef.child(localStorage.myFirebase_user_id+"/"+timeStamp+"/"+ fileName).put(fileObject);
 
 // Listen for state changes, errors, and completion of the upload.
 uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
