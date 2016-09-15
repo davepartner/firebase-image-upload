@@ -150,6 +150,15 @@ uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
   // Upload completed successfully, now we can get the download URL
   var downloadURL = uploadTask.snapshot.downloadURL;
   console.log("The download URL: "+downloadURL);
+  
+  //this is where you have to enter the code to update any desired firebase table with the image url
+  //eg this below code will add a 'profilePhoto' field and record to 'users' table for the user with the id of userId
+  //read more about saving data in firebase here: https://firebase.google.com/docs/database/web/save-data
+  
+  firebase.database().ref('users/' + userId).update({
+    profilePhoto: downloadURL
+  });
+
 });
 
 
@@ -159,7 +168,7 @@ uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
 function onFail(message) {
 //alert('Failed because: ' + message);
 setTimeout(function(){
-	navigator.notification.alert(message);
+	navigator.notification.alert(message); //show a pop up message if something failed in the process eg.image upload canceled 
 }, 0);
 }
 
