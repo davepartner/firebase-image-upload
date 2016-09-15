@@ -76,6 +76,7 @@ Please file a GitHub issue to [report a bug](https://github.com/daveozoalor/fire
 
 
 ## How to thank me
+* Star this repo
 Follow me on my social media handles
 * Subscribe on [Youtube](http://youtube.com/c/braintemorg)
 * Follow on [Twitter](http://twitter.com/braintem)
