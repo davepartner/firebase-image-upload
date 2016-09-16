@@ -48,10 +48,11 @@ Eg.
 ## Set User Upload Permissions
 Login to your firebase console, click on STORAGE, then click on RULES
 Replace whatever default code you have their with the one below:
+Don't forget to replace <PROJECT_ID> with your firebase project's ID
 
 ```
 service firebase.storage {
-  match /b/project-162854887831486239.appspot.com/o {
+  match /b/project-<PROJECT_ID>.appspot.com/o {
     match /{userId}/{timestamp}/{fileName} {
       allow write: if request.auth.uid == userId;
       allow read;
