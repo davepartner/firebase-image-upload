@@ -66,7 +66,7 @@ Otherwise you could be getting errors such as
 `firebase error: 403 not found, user does not have permission to access /image`
 
 ## Tutorials
-* I have made Youtube Tutorials for Ratchet, don't forget to subscribe: [Youtube.com/c/braintemorg](https://www.youtube.com/playlist?list=PLnBvgoOXZNCPr4Qlf2bkKR4VKdHGv0VSM)
+* I have made Youtube Tutorials for Firebase, don't forget to subscribe: [Youtube.com/c/braintemorg](https://www.youtube.com/playlist?list=PLnBvgoOXZNCPr4Qlf2bkKR4VKdHGv0VSM)
 *If you have any questions or discussions, you can leave them under each youtube video, I'll be there to help.
 
 * You can get tutorials from the official Firebase' website https://firebase.google.com
@@ -84,6 +84,11 @@ Follow me on my social media handles
 * Follow on [Instagram](http://instagram.com/daveozoalor)
 * Like on [Facebook](http://fb.com/braintem)
 
-## How to contact me
-Yes I can join your team, or help out in one way or the other: 
+## Contacts
+
+* You can reach the me on `daveozoalor@gmail.com`
 * Just buzz me up on [facebook](http://facebook.com/daveozoalor)
+
+## License
+
+Fireblogger is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
